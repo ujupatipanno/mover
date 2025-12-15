@@ -1,0 +1,10 @@
+{
+  "id": "mover",
+  "name": "파일 이동",
+  "version": "1.0.2",
+  "minAppVersion": "0.15.0",
+  "description": "파일을 다른 폴더로 이동시키는 명령어를 추가합니다.",
+  "author": "ujupatipanno",
+  "authorUrl": "https://github.com/ujupatipanno",
+  "isDesktopOnly": false
+}
