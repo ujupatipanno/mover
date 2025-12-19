@@ -81,6 +81,7 @@ export default class FileMoverPlugin extends Plugin {
 		this.addCommand({
 			id: cmd.id,
 			name: `현재 파일을 ${cmd.id}로 이동`,
+			icon: 'lucide-folder-up',
 			callback: async () => {
 				await this.moveCurrentFile(cmd.folder, cmd.id);
 			}
